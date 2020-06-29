@@ -10,7 +10,7 @@ folium
 matplotlib
 nbinteract
 scipy
-jupyter-book==0.7.1
+jupyter-book
 bqplot
 appmode
 traitlets
