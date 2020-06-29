@@ -17,6 +17,8 @@ To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>
 
 # Radioactive Decay Interactives
 
+The following interactive figures were borrowed from [Astro Interactives](https://juancab.github.io/AstroInteractives/) and adapted for easy access into this Jupyter Book. The first one shows the random yet predictable nature of radioactive decay and its use as a time clock.  The second one illustrates Geochron plots. 
+
 ## Interactive Figure 1: Model of Radioactive Decay
 
 This first figure takes a population of 900 atoms and models their radioactive decay.
