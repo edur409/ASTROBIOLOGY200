@@ -1,0 +1,156 @@
+# This file contains the order and numbering for all sections in the book.
+#
+# It is a sample TOC file to help you get started. Fill it out with entries
+# for your own content.
+#
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or section
+#   url: /myurl  # URL of section relative to the /content/ folder.
+#   sections:  # Contains a list of more entries that make up the chapter's sections
+#   not_numbered: true  # if the section shouldn't have a number in the sidebar
+#     (e.g. Introduction or appendices)
+#   expand_sections: true  # if you'd like the sections of this chapter to always
+#     be expanded in the sidebar.
+#   external: true  # Whether the URL is an external link or points to content in the book
+#
+# Below are some special values that trigger specific behavior:
+# - search: true  # Will provide a link to a search page
+# - divider: true  # Will insert a divider in the sidebar
+# - header: My Header  # Will insert a header with no link in the sidebar
+#
+# See the links below for an example.
+
+# Top-level page
+- title: Home
+  url: /intro
+  not_numbered: true
+
+# External link
+- title: GitHub repository
+  url: https://github.com/edur409/ASTRO200.git
+  external: true
+  not_numbered: true
+
+# Adds a searchbar link
+#- title: Search
+#  search: true
+
+# Divider for meta-pages and content page
+- divider: true
+
+# Add a header and sample content section
+- header: I. THE CONTEXT FOR LIFE IN THE UNIVERSE
+# ===== PART I ========================================
+# === Chapter 1 =======================================
+- title: Introduction
+  url: 01-introduction
+  sections:
+  - title: What is astrobiology?
+    url: /01/1/what-is-astrobiology
+  - title: The-ways-of-science
+    url: /01/2/the-ways-of-science
+  - title: From Ptolemy To Kepler
+    url: /01/3/from_ptolemy_to_kepler
+  - title: Distances In The Universe
+    url: /01/4/distances_in_the_universe
+    subsections:
+    - title: Curl Vector Field
+      url: /01/4/subsection/Curl_vector_field
+    - title: Smallangleequation
+      url: /01/4/subsection/SmallAngleEquation
+    
+# ===== Chapter 2 ========================================
+- title: Scales of the Universe
+  url: 02-scales-in-astronomy
+  sections:
+  - title: Radioactive decay
+    url: /02/Radioactivity
+  - title: Doppler Shift
+    url: /02/DopplerShift
+
+# ===== Chapter 3 ========================================
+- title: Intro to Geology
+  url: 03-intro-to-geology 
+  sections:
+  - title: Mineral_Evolution
+    url: /03/1/Mineral_Evolution
+  - title: Geologic Time
+    url: /03/2/Geologic_Time
+
+# ===== Chapter 4 ========================================
+- title: Earth's Habitability and Climate
+  url: 04-earth-habitability
+  sections:
+  - title: Habitable Zones
+    url: /04/1/Habitable_Zones
+
+- header: II. LIFE ON EARTH
+# ===== PART II ========================================
+# ===== Chapter 5 ========================================
+- title: The Biology of Life
+  url: 05-biology-of-life
+  sections:
+  - title: What is Life?
+    url: /05/1/what-is-life
+  - title: The DNA molecule 
+    url: /05/2/DNA-discovery
+    subsections:
+    - title: A Diffraction Experiment
+      url: /05/2/subsection/Diffraction_experiment
+
+# ===== Chapter 6 ========================================
+- title: Life's Limits
+  url: 06-life-limits
+  sections:
+  - title: What is Life?
+    url: /06/1/early-earth
+
+# ===== Chapter 7 ========================================
+- title: The Origin of Life
+  url: 07-origin-of-life
+  sections:
+  - title: History of Complex Life?
+    url: /07/1/complex-life
+  - title: RNA World
+    url: /07/2/RNA_World
+  
+- header: III. LIFE IN THE SOLAR SYSTEM
+# ===== PART III ========================================
+# ===== Chapter 8 ========================================
+- title: Habitability in the Solar System
+  url: 08-habitability-our-system
+  sections:
+  - title: Our Sun
+    url: /08/1/sun-and-stars
+
+# ===== Chapter 9 ========================================
+- title: Mars
+  url: 09-geology-of-mars
+  sections:
+  - title: Exploration of Mars
+    url: /09/1/mars-missions
+
+# ===== Chapter 10 ========================================
+- title: The Moons of the Giants
+  url: 10-moons-of-giants
+  sections:
+  - title: Summary on Habitable Zones
+    url: /10/1/habitable-summary
+
+- header: IV. LIFE AMONGST THE STARS
+# ===== PART IV ========================================
+# ===== Chapter 11 ========================================
+- title: SETI and Drake's Equation
+  url: 11-seti-drake
+  sections:
+  - title: Implications of Extraterrestrial Life
+    url: /11/1/implications-ET-life
+
+# ===== Chapter 12 ========================================
+- title: Future of Earth
+  url: 12-future-of-earth
+  sections:
+  - title: Planetary Migrations?
+    url: /12/1/planetary-migration
+

@@ -1,0 +1,19 @@
+# Requirements for the demo notebooks
+
+# Useful for MyBinder configuration
+# Requirements for the demo notebooks
+# Useful for MyBinder configuration
+pandas
+numpy
+datascience
+folium
+matplotlib
+nbinteract
+scipy
+jupyter-book
+bqplot
+appmode
+traitlets
+traittypes
+pythreejs
+seaborn
